@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BODMAS Solver for Fractions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>BODMAS Solver for Fractions</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="bodmasForm">
+                <label for="expression">Enter Expression:</label>
+                <input type="text" id="expression" name="expression" placeholder="e.g., (1/2 + 3/4) * 2/3" required>
+                <button type="submit">Solve</button>
+            </form>
+
+            <div id="result" class="result-section">
+                <h2>Result</h2>
+                <p id="resultMessage">Enter an expression and click 'Solve' to see the result.</p>
+                <p id="bodmasResult"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BODMAS Solver for Fractions</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
